@@ -1,0 +1,17 @@
+|Logic_gates
+A => AND_out.IN0
+A => OR_out.IN0
+A => XOR_out.IN0
+A => NOT_out.DATAIN
+B => AND_out.IN1
+B => OR_out.IN1
+B => XOR_out.IN1
+AND_out <= AND_out.DB_MAX_OUTPUT_PORT_TYPE
+OR_out <= OR_out.DB_MAX_OUTPUT_PORT_TYPE
+NOT_out <= A.DB_MAX_OUTPUT_PORT_TYPE
+NAND_out <= AND_out.DB_MAX_OUTPUT_PORT_TYPE
+NOR_out <= OR_out.DB_MAX_OUTPUT_PORT_TYPE
+XOR_out <= XOR_out.DB_MAX_OUTPUT_PORT_TYPE
+XNOR_out <= XOR_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
